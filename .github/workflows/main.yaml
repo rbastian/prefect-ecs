@@ -32,7 +32,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: rbastian/prefect:latest
+          tags: ghcr.io/rbastian/prefect:latest
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
