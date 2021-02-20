@@ -33,6 +33,7 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
+          tags: ghcr.io/rbastian/prefect:0.0.1
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
