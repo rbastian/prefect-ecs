@@ -2,8 +2,8 @@
 name: prefectimage
 
 on:
-  pull_request:
-  push:
+  release:
+    type: [published]
 
 jobs:
   prefectimage:
