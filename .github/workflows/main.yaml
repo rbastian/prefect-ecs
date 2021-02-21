@@ -3,7 +3,7 @@ name: prefectimage
 
 on:
   release:
-    type: [published]
+    types: [published]
 
 jobs:
   prefectimage:
